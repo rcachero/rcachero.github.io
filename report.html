@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ralph Cachero</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="scripts/reportcard/js/reportcard/css/badges.css">
+  </head>
+  <body>
+    <header>
+      <h1>Ralph Cachero</h1>
+      <p>The Web is my sandbox. Self-taught Front-End Web Developer.</p>
+    </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li>Interests</li>
+          <li><a href="#">Report Card</a></li>
+        </ul>
+    </nav>
+      <section>
+        <div class="report-card treehouse" style="display:block;"></div>
+
+        <div class="report-card codeschool" style="display:block;"></div>
+      </section>
+    <footer>
+      <p>&copy; 2015 Ralph Cachero. Powered by Awesomeness.</p>
+    </footer>
+    <script src="scripts/jquery-1.11.2.min.js"></script>
+    <script src="scripts/reportcard/js/reportcard.js"></script>
+    <script>
+      jQuery(document).ready(function(){
+        if($('.report-card.treehouse').length > 0) {
+          $('.report-card.treehouse').reportCard({
+        userName: 'ralphcachero',
+        site: 'treehouse',
+        badgesAmount: 7
+        });
+      }
+        if($('.report-card.codeschool').length > 0) {
+          $('.report-card.codeschool').reportCard({
+            userName: 'rcachero',
+            site: 'codeschool',
+            badgesAmount: 7
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
