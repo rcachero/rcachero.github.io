@@ -1,19 +1,7 @@
 /*************************************
   GENERAL
 **************************************/
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
-a {
-  text-decoration: none;
-}
 
 /***********************************
   HEADING
@@ -22,36 +10,46 @@ a {
 
 
 
+
 /***********************************
   NAVIGATION
 ************************************/
 
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
-}
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
 
-nav li {
-  display: inline-block;
-}
+
+
+/***********************************
+  PAGE: INDEX
+************************************/
+
+
+
 
 
 /***********************************
   PAGE: SOCIAL
 ************************************/
 
+.block {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  clear: both;
+}
 
 .badges {
   margin: 10px 10px 25px 10px;
   padding: 0;
+  display: inline-flex;
+  list-style: none;
+  max-width: 960px;
 }
+
+
 
 .report-card {
   display: block;
@@ -73,10 +71,6 @@ nav li {
 FOOTER
 ************************************/
 
-footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #000;
+#copyright {
+  font-size: 1em;
 }
