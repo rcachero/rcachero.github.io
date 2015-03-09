@@ -2,6 +2,12 @@
   GENERAL
 **************************************/
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 /***********************************
   HEADING
@@ -66,11 +72,44 @@
   display: inline-flex;
 }
 
+/***********************************
+  PAGE: INTEREST
+************************************/
+
+.embed {
+  border-radius: 3px;
+  width: 670px;
+  height: auto;
+  background: #f7f8fa;
+  border: 4px solid rgba(140, 140, 140, 0.4);
+  box-sizing: border-box;
+}
+
+#imageGallery {
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  max-width: 780px;
+}
+
+.photos {
+  display: inline-block;
+  padding: 8px;
+  margin: 10px;
+  width: 227px;
+  height: 247px;
+  text-decoration: none;
+}
+
 
 /***********************************
 FOOTER
 ************************************/
 
-#copyright {
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   font-size: 1em;
 }
