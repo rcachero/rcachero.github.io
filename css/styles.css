@@ -2,7 +2,6 @@
   GENERAL
 **************************************/
 
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -15,12 +14,16 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
 /***********************************
   HEADING
 ************************************/
 
+#name {
+  font-family: 'Lato', sans-serif;
+}
 
 
 
@@ -41,8 +44,23 @@ body {
 
 
 
+
 /***********************************
-  PAGE: SOCIAL
+  PAGE: ABOUT
+************************************/
+
+
+
+
+/***********************************
+  PAGE: INTEREST
+************************************/
+
+
+
+
+/***********************************
+  PAGE: REPORT CARD
 ************************************/
 
 .block {
@@ -63,8 +81,6 @@ body {
   max-width: 960px;
 }
 
-
-
 .report-card {
   display: block;
   text-align: center;
@@ -79,11 +95,6 @@ body {
   list-style: none;
   display: inline-flex;
 }
-
-/***********************************
-  PAGE: INTEREST
-************************************/
-
 
 
 
