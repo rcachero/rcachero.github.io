@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ralph Cachero</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="scripts/reportcard/css/badges.css">
     <link rel="stylesheet" href="css/bootstrap.min.css"  media="screen">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="scripts/reportcard/css/badges.css">
   </head>
   <body>
     <div class="container">
@@ -19,21 +18,49 @@
           <li><a href="report.html">Report Card</a></li>
         </ul>
         <h1 id="name">Ralph Cachero</h1>
-        <p id="summary">The Web is my sandbox. Self-taught Front-End Web Developer.</p>
+        <p id="summary">The Web is my sandbox. Self-taught Front-End Ninja.</p>
       </header>
       <section>
         <h3>Photography</h3>
-        <div>
-          <div class="pixels-photo">
-            <p><img src="https://drscdn.500px.org/photo/5669928/m=900/4346b9af355cb83057a18da83689e7bb" alt="Photograph William Mason Bridge by Ralph Cachero on 500px"></p>
-            <a href="https://500px.com/photo/5669928/william-mason-bridge-by-ralph-cachero">William Mason Bridge by Ralph Cachero on 500px</a>
+        <div class="row photo-grid">
+          <div class="col-md-3">
+            <img class="img-responsive" src="https://drscdn.500px.org/photo/5669928/w%3D280_h%3D280/9994f61a483f3b7c573d5748f80bbff8?v=2" alt="William Mason Bridge">
+          </div>
+          <div class="col-md-3">
+            <img class="img-responsive" src="https://drscdn.500px.org/photo/8753556/w%3D280_h%3D280/d77858ef899415d3f68681ebfb235739?v=2" alt="Flo's Gas">
+          </div>
+          <div class="col-md-3">
+            <img class="img-responsive" src="https://drscdn.500px.org/photo/101821807/w%3D280_h%3D280/bc3cb8fa7c88f37e7a095beb72cefddf?v=7" alt="Zion National Park">
+          </div>
+          <div class="col-md-3">
+            <img class="img-responsive" src="https://drscdn.500px.org/photo/4529629/w%3D280_h%3D280/a1c32b976c7c5d399c72a78cd7d13ede?v=2" alt="Disneyland">
           </div>
         </div>
+
+
       </section>
-      <footer class="copyright">
-        <p>&copy; 2015 Ralph Cachero. Powered by Awesomeness.</p>
+
+
+
+
+<!-- ==================== Footer  ============================ -->
+      <footer class="footer" role="contentinfo">
+        <div class="container">
+          <div class="social">
+            <ul class="social-links">
+              <li><a href="https://www.facebook.com/rcachero" id="facebook"><img id="facebook" src="img/facebook.png"></a></li>
+              <li><a href="https://twitter.com/ralphcachero" id="twitter"><img id="twitter" src="img/twitter.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/ralphcachero" id="linkedin"><img id="linkedin" src="img/linkedin.png"></a></li>
+              <li><a href="https://plus.google.com/+RalphCachero" id="google+"><img id="google+" src="img/google+.png"></a></li>
+            </ul>
+          </div>
+          <p>&copy; 2015 Ralph Cachero. Powered by Awesomeness.</p>
+        </div>
       </footer>
-      <script src="scripts/jquery-1.11.2.min.js"></script>
-      <script type="text/javascript" src="https://500px.com/embed.js"></script>
-    </body>
-  </html>
+    </div>
+
+<!-- =================== Scripts =========================== -->
+    <script src="scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="https://500px.com/embed.js"></script>
+  </body>
+</html>

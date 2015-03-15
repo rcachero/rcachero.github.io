@@ -2,6 +2,14 @@
   GENERAL
 **************************************/
 
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -76,40 +84,30 @@ body {
   PAGE: INTEREST
 ************************************/
 
-.embed {
-  border-radius: 3px;
-  width: 670px;
-  height: auto;
-  background: #f7f8fa;
-  border: 4px solid rgba(140, 140, 140, 0.4);
-  box-sizing: border-box;
-}
 
-#imageGallery {
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-  max-width: 780px;
-}
-
-.photos {
-  display: inline-block;
-  padding: 8px;
-  margin: 10px;
-  width: 227px;
-  height: 247px;
-  text-decoration: none;
-}
 
 
 /***********************************
 FOOTER
 ************************************/
 
-.copyright {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  font-size: 1em;
+.footer {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  color: #767676;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+
+.social {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
