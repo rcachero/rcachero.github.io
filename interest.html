@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ralph Cachero</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href="scripts/reportcard/css/badges.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="scripts/reportcard/css/badges.css">
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container">
@@ -23,26 +23,48 @@
       </header>
       <section>
         <h3>Photography</h3>
-        <div class="row" id="photo-grid">
-          <div class="col-md-3">
-            <img alt="bridge" class="img-responsive" src="https://drscdn.500px.org/photo/5669928/w%3D280_h%3D280/9994f61a483f3b7c573d5748f80bbff8?v=2">
-          </div>
-          <div class="col-md-3">
-            <img alt="gas" class="img-responsive" src="https://drscdn.500px.org/photo/8753556/w%3D280_h%3D280/d77858ef899415d3f68681ebfb235739?v=2">
-          </div>
-          <div class="col-md-3">
-            <img alt="zion" class="img-responsive" src="https://drscdn.500px.org/photo/101821807/w%3D280_h%3D280/bc3cb8fa7c88f37e7a095beb72cefddf?v=7">
-          </div>
-          <div class="col-md-3">
-            <img alt="disneyland" class="img-responsive" src="https://drscdn.500px.org/photo/4529629/w%3D280_h%3D280/a1c32b976c7c5d399c72a78cd7d13ede?v=2">
-          </div>
+        <div class="row">
+          <ul id="photo-grid">
+            <li><a id="bridge" href="https://drscdn.500px.org/photo/5669928/w%3D280_h%3D280/9994f61a483f3b7c573d5748f80bbff8?v=2"><img alt="bridge" class="img-responsive" src="https://drscdn.500px.org/photo/5669928/w%3D280_h%3D280/9994f61a483f3b7c573d5748f80bbff8?v=2"></a>
+            </li>
+            <li><a id="gas" href="https://drscdn.500px.org/photo/8753556/w%3D280_h%3D280/d77858ef899415d3f68681ebfb235739?v=2"><img alt="gas" class="img-responsive" src="https://drscdn.500px.org/photo/8753556/w%3D280_h%3D280/d77858ef899415d3f68681ebfb235739?v=2"></a>
+            </li>
+            <li><a id="zion" href="https://drscdn.500px.org/photo/101821807/w%3D280_h%3D280/bc3cb8fa7c88f37e7a095beb72cefddf?v=7"><img alt="zion" class="img-responsive" src="https://drscdn.500px.org/photo/101821807/w%3D280_h%3D280/bc3cb8fa7c88f37e7a095beb72cefddf?v=7"></a>
+            </li>
+            <li><a id="disneyland" href="https://drscdn.500px.org/photo/4529629/w%3D280_h%3D280/a1c32b976c7c5d399c72a78cd7d13ede?v=2"><img alt="disneyland" class="img-responsive" src="https://drscdn.500px.org/photo/4529629/w%3D280_h%3D280/a1c32b976c7c5d399c72a78cd7d13ede?v=2">
+            </li>
+          </ul>
         </div>
-
-
       </section>
 
-
-
+<!-- ==================== Modal  =============================
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
 
 <!-- ==================== Footer  ============================ -->
       <footer class="footer" role="contentinfo">
@@ -64,5 +86,7 @@
 <!-- =================== Scripts =========================== -->
     <script src="scripts/jquery-1.11.2.min.js"></script>
     <script src="scripts/app.js"></script>
+
+
   </body>
 </html>
