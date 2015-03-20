@@ -7,22 +7,36 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="scripts/reportcard/css/badges.css">
     <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="interest.html">Interests</a></li>
-          <li><a href="report.html">Report Card</a></li>
-        </ul>
-        <div class="text-left">
-          <h1 id="name">Ralph Cachero</h1>
-          <h5>The Web is my sandbox. Self-taught Front-End Ninja.</h5>
+
+<div class="container">
+
+
+<!-- ==================== Navbar  ============================ -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-muted" href="#">Ralph Cachero</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="interest.html">Interests</a></li>
+            <li><a href="report.html">Report Card</a></li>
+          </ul>
         </div>
-      </header>
+      </div>
+    </div>
+
+<!-- ==================== Body  ============================ -->
       <div id="wrapper">
         <section>
           <div class="row">
@@ -52,5 +66,6 @@
 
 <!-- =================== Scripts =========================== -->
     <script src="scripts/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
 </html>

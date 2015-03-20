@@ -40,6 +40,9 @@ body {
   PAGE: INDEX
 ************************************/
 
+#wrapper  {
+  margin-top: 60px;
+}
 
 
 
@@ -101,16 +104,6 @@ body {
 .report-card {
   display: block;
   text-align: center;
-}
-
-.badges.treehouse {
-  list-style: none;
-  display: inline-flex;
-}
-
-.badges.codeschool {
-  list-style: none;
-  display: inline-flex;
 }
 
 
