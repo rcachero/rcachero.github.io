@@ -8,7 +8,7 @@ $overlay.append($image);
 $("body").append($overlay);
 
 
-$("#photo-grid a").click(function () {
+$("#photo-grid a").click(function (event) {
   event.preventDefault();
   var imageLocation = $(this).attr("href");
 
