@@ -97,7 +97,7 @@ calcHeight = ->
           if e < count - 1
             badgesArray += "<li style=\"width: " + (((90 / count) * 100) / 100).toFixed(2) + "%\"><a href=\"" + badges[e].url + "\" title=\"I earned the " + badges[e].name + " badge on " + earnedDate + "\" target=\"_blank\"><img class=\"treebadge\" src=\"" + badges[e].icon_url + "\" alt=\"" + badges[e].name + "\" title=\"I earned the '" + badges[e].name + "' badge on " + earnedDate + "\"/></a></li>"
           else
-            badgesArray += "<li style=\"width: " + (((90 / count) * 100) / 100).toFixed(2) + "%\" class=\"more-badges\"><a href=\"http://teamtreehouse.com/" + userName + "\" target=\"_blank\" title=\"Check out the other " + (badgesCount - count + 1) + " badges at Treehouse!\" >+" + (badgesCount - count + 1) + "</a></li>"
+            badgesArray += "<li style=\"width: " + (((90 / count) * 100) / 100).toFixed(2) + "%\" class=\"more-badges\"><a href=\"https://teamtreehouse.com/" + userName + "\" target=\"_blank\" title=\"Check out the other " + (badgesCount - count + 1) + " badges at Treehouse!\" >+" + (badgesCount - count + 1) + "</a></li>"
           if e < 3
             summary += "<strong>" + badges[e].name + "</strong>" + ", "
           else summary += " and <strong>" + badges[e].name + "</strong>!</p>"  if e < 4
@@ -125,7 +125,7 @@ calcHeight = ->
         $(".report-card.treehouse").append badgesArray
         return
       userName = options.userName
-      reportCardUrl = "http://teamtreehouse.com/" + options.userName + ".json"
+      reportCardUrl = "https://teamtreehouse.com/" + options.userName + ".json"
       $.ajax
         type: "GET"
         url: reportCardUrl
