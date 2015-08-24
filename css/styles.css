@@ -1,134 +1,66 @@
-/*************************************
-  GENERAL
-**************************************/
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 800px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+.carousel-control.left {
+    z-index:7
+}
+.carousel-control.right {
+    z-index:7
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: 'Lato', sans-serif;
+.portfolio {
+  text-align: center;
 }
 
-/***********************************
-  HEADING
-************************************/
-
-#name {
-  font-family: 'Lato', sans-serif;
+.portfolio-img a {
+  margin: 10px 5px;
+  max-width: 400px;
 }
 
-
-
-
-/***********************************
-  NAVIGATION
-************************************/
-
-
-
-
-
-/***********************************
-  PAGE: INDEX
-************************************/
-
-#wrapper  {
-  margin-top: 60px;
-}
-
-
-
-
-
-/***********************************
-  PAGE: ABOUT
-************************************/
-
-
-
-
-/***********************************
-  PAGE: INTEREST
-************************************/
-
-#photo-grid {
-  padding-left: 12px;
+.portfolio-caption {
   margin: 0 auto;
-}
-
-#photo-grid li {
-  list-style: none;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flex;
-  display: inline-flex;
-  margin-right: 0.5rem;
-}
-
-#overlay {
-  background: rgba(0,0,0,0.7);
+  text-align: center;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  text-align: center;
-}
-
-#overlay img {
-  margin-top: 10%;
-}
-
-/***********************************
-  PAGE: REPORT CARD
-************************************/
-
-
-
-.badges {
-  margin: 10px 10px 25px 10px;
-  padding: 0;
-  display: inline-flex;
-  list-style: none;
-  max-width: 960px;
-}
-
-.report-card {
-  display: block;
-  text-align: center;
+  font-weight: 400;
 }
 
 
+#profile {
+  width: 65%;
+  height: auto;
+  margin: 15px auto;
+}
 
-/***********************************
-FOOTER
-************************************/
+dl {
+   border: 3px double #ccc;
+   padding: 0.5em;
+   text-decoration: none;
+ }
+ dt {
+   float: left;
+   clear: left;
+   width: 100px;
+   text-align: right;
+   font-weight: bold;
+   color: green;
+ }
+ dt:after {
+   content: ":";
+ }
+ dd {
+   margin: 0 0 0 110px;
+   padding: 0 0 0.5em 0;
+   font-weight: 400;
+ }
 
-.footer {
-  padding-top: 40px;
-  padding-bottom: 10px;
-  margin-top: 100px;
-  color: #767676;
-  text-align: center;
-  border-top: 1px solid #e5e5e5;
+.banner {
+  font-weight: 400;
 }
 
 .social {
-  margin-bottom: 20px;
   text-align: center;
-}
-
-.social-links li {
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
 }
