@@ -31,15 +31,73 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
 /* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff;
   font-size: 240%;
-  font-weight: 300;
-  letter-spacing: 1px;
   word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #2980b9;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+  font-size: 350%;
+  display: inline-block;
+  color: #2980b9;
+  margin-bottom: 10px;
 }
 
 /* ----- BUTTONS ----- */
@@ -134,4 +192,12 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #2980b9;
+}
+
+/* -------------------------------------------- */
+/* FEATURES */
+/* -------------------------------------------- */
+
+.section-about .long-copy {
+  margin-bottom: 30px;
 }
