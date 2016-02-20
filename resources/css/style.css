@@ -22,6 +22,15 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* -------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* -------------------------------------------- */
@@ -100,6 +109,37 @@ h2:after {
   margin-bottom: 10px;
 }
 
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #2980b9;
+  font-size: 120%;
+  margin-right: 10px;
+  
+  /* Secrets to align text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+  color: #2980b9;
+  text-decoration: none;
+  padding: 1px;
+  border-bottom: 1px solid #2980b9;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
 /* ----- BUTTONS ----- */
 .btn:link,
 .btn:visited {
@@ -131,12 +171,12 @@ h2:after {
 }
 
 .btn-full:hover,
-.btn-full:acted {
+.btn-full:active {
   border: 1px solid #236d9d;
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:hover,
+.btn-ghost:active {
   border: 1px solid #236d9d;
   color: #fff;
 }
@@ -150,6 +190,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -200,4 +241,69 @@ header {
 
 .section-about .long-copy {
   margin-bottom: 30px;
+}
+
+/* -------------------------------------------- */
+/* Photos */
+/* -------------------------------------------- */
+
+.section-photos {
+  padding: 0;
+}
+
+.photos-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.photos-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.travel-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.travel-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.travel-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+/* -------------------------------------------- */
+/* WEB PORTFOLIO */
+/* -------------------------------------------- */
+
+.section-portfolio {
+  background-color: #f4f4f4;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.portfolio-feature {
+  margin-bottom: 5px;
+}
+
+.blurb {
+  text-align: center;
+}
+
+.blurb a {
+  border: none;
 }
