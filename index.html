@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
     <title>Ralph Cachero</title>
   </head>
@@ -161,6 +163,81 @@
         </div>
       </div>
     </section>
+    
+    <section class="section-form">
+      <div class="row">
+        <h2>I'm happy to hear from you</h2>
+      </div>
+      <div class="row">
+        <form method="post" action="#" class="contact-form">
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="name">Name</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="email">Email</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="text" name="subject" id="subject" placeholder="Subject">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Drop me a line</label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Send message">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="footer-nav">
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col span-1-of-2">
+          <ul class="social-links">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <p>
+          Copyright &copy; 2016 by Ralph Cachero. All rights reserved. Made with <i class="ion-ios-heart"></i> and powered by iced coffee.
+        </p>
+      </div>
+    </footer>
     
   </body>
 </html>

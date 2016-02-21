@@ -142,7 +142,8 @@ a:active {
 
 /* ----- BUTTONS ----- */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -152,7 +153,8 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
   background-color: #2980b9;
   border: 1px solid #2980b9;
   color: #fff;
@@ -162,16 +164,20 @@ a:active {
 .btn-ghost:link,
 .btn-ghost:visited {
   border: 1px solid #2980b9;
-  color: #e67e22;
+  color: #2980b9;
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: #236d9d;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   border: 1px solid #236d9d;
 }
 
@@ -306,4 +312,119 @@ header {
 
 .blurb a {
   border: none;
+}
+
+/* -------------------------------------------- */
+/* FORM */
+/* -------------------------------------------- */
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none
+}
+
+/* -------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------- */
+
+footer {
+  background-color: #333;
+  padding: 40px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover,
+.ion-social-facebook:active {
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+  color: #00aced;
+}
+
+.ion-social-googleplus:hover,
+.ion-social-googleplus:active {
+  color: #dd4b39;
+}
+
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+  color: #517fa4;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 10px;
 }
