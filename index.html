@@ -16,20 +16,21 @@
       <nav>
         <div class="row">
           <img src="resources/img/logo-white.png" alt="Ralph Cachero logo" class="logo">
-          <ul class="main-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+          <img src="resources/img/logo.png" alt="Ralph Cachero logo" class="logo-black">
+          <ul class="main-nav js--main-nav">
+            <li class="js--scroll-to-about"><a href="#about">About</a></li>
+            <li class="js--scroll-to-portfolio"><a href="#portfolio">Portfolio</a></li>
+            <li class="js--scroll-to-form"><a href="#contact">Contact</a></li>
           </ul>
+          <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
         </div>
       </nav>
       <div class="hero-text-box">
         <h1>RALPH CACHERO<br>iOS and Web Developer</h1>
-        <a href="#" class="btn btn-full">Resumé</a>
       </div>
     </header>
     
-    <section class="section-about">
+    <section class="section-about js--section-about" id="about">
       <div class="row">
         <h2>Coding Advocate &mdash; Amateur Photographer</h2>
         <p class="long-copy">
@@ -89,7 +90,7 @@
       </ul>
     </section>
     
-    <section class="section-portfolio">
+    <section class="section-portfolio js--section-portfolio" id="portfolio">
       <div class="row">
         <h2>Web Portfolio</h2>
         <p class="blurb long-copy">
@@ -164,12 +165,12 @@
       </div>
     </section>
     
-    <section class="section-form">
+    <section class="section-form js--section-form" id="contact">
       <div class="row">
         <h2>I'm happy to hear from you</h2>
       </div>
       <div class="row">
-        <form method="post" action="#" class="contact-form">
+        <form action="//formspree.io/ralph.cachero@hotmail.com" method="POST" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
               <label for="name">Name</label>
@@ -183,7 +184,7 @@
               <label for="email">Email</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="email" name="email" id="email" placeholder="Your email" required>
+              <input type="email" name="_replyto" id="email" placeholder="Your email" required>
             </div>
           </div>
           <div class="row">
@@ -191,7 +192,7 @@
               <label for="subject">Subject</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="text" name="subject" id="subject" placeholder="Subject">
+              <input type="text" name="_subject" id="subject" placeholder="Subject">
             </div>
           </div>
           <div class="row">
@@ -207,7 +208,8 @@
               <label>&nbsp;</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="submit" value="Send message">
+              <input type="submit" value="Send">
+              <input type="text" name="_gotcha" style="display:none" />
             </div>
           </div>
         </form>
@@ -218,17 +220,17 @@
       <div class="row">
         <div class="col span-1-of-2">
           <ul class="footer-nav">
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="js--scroll-to-about"><a href="#about">About me</a></li>
+            <li class="js--scroll-to-portfolio"><a href="#portfolio">Portfolio</a></li>
+            <li class="js--scroll-to-form"><a href="#">Contact</a></li>
           </ul>
         </div>
         <div class="col span-1-of-2">
           <ul class="social-links">
-            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
             <li><a href="#"><i class="ion-social-twitter"></i></a></li>
             <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+            <li><a href="https://github.com/rcachero" target="_blank"><i class="ion-social-github"></i></a></li>
           </ul>
         </div>
       </div>
@@ -238,6 +240,15 @@
         </p>
       </div>
     </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
     
   </body>
+  
+  
 </html>
