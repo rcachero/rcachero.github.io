@@ -196,8 +196,8 @@ input[type=submit]:active {
 /* -------------------------------------------- */
 
 header {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/rsz_background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/rsz_background.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -374,8 +374,8 @@ header {
 /* -------------------------------------------- */
 
 .section-form {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/contact-bg.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/contact-bg.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/rsz_contact-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/rsz_contact-bg.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
