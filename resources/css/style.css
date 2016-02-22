@@ -199,6 +199,8 @@ header {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background-min.jpg);
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
@@ -377,6 +379,8 @@ header {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/contact-bg-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/contact-bg-min.jpg);
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: #fff;
