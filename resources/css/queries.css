@@ -38,10 +38,6 @@
 @media only screen and (max-width: 767px) {
   body { font-size: 16px; }
   section { padding: 30px 0; }
-  header { 
-    background-size: auto;
-    background-attachment: scroll; 
-  }
   
   .row, 
   .hero-text-box { padding: 0 4%; }
@@ -81,11 +77,6 @@
   .long-copy {
     width: 100%;
     margin-left: 0%;
-  }
-  
-  .section-form { 
-    background-size: auto;
-    background-attachment: scroll; 
   }
 }
 
