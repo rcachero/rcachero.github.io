@@ -15,9 +15,7 @@
 @media only screen and (max-width: 1023px) {
   body { font-size: 18px; }
   section { padding: 60px 0; }
-  header {
-    background-attachment: scroll;
-  }
+  header { background-attachment: scroll; }
   
   .long-copy {
     width: 80%;
@@ -33,6 +31,7 @@
     margin-right: 5px;
   }
   
+  .section-form { background-attachment: scroll; }
   .contact-form { width: 80%; }
 }
 
@@ -42,9 +41,7 @@
 @media only screen and (max-width: 767px) {
   body { font-size: 16px; }
   section { padding: 30px 0; }
-  header {
-    background-attachment: scroll;
-  }
+  header { background-attachment: scroll; }
   
   .row, 
   .hero-text-box { padding: 0 4%; }
@@ -85,6 +82,9 @@
     width: 100%;
     margin-left: 0%;
   }
+  
+  .section-form { background-attachment: scroll; }
+
 }
 
 
@@ -93,8 +93,7 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0; }
-  header {
-    background-attachment: scroll;
-  }
+  header { background-attachment: scroll; }
+  .section-form { background-attachment: scroll; }
   .contact-form { width: 100%; }
 }
