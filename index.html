@@ -13,6 +13,29 @@
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
     <title>Ralph Cachero</title>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/resources/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/resources/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/resources/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/resources/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/resources/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/resources/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/resources/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/resources/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/resources/favicons/manifest.json">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="/resources/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
   </head>
   <body>
     <header>
@@ -22,8 +45,8 @@
           <img src="resources/img/logo.png" alt="Ralph Cachero logo" class="logo-black">
           <ul class="main-nav js--main-nav">
             <li><a href="#about">About</a></li>
-            <li><a href="#iOS-portfolio">Mobile</a></li>
-            <li><a href="#portfolio">Web</a></li>
+            <li><a href="#ios-portfolio">Mobile</a></li>
+            <li><a href="#web-portfolio">Web</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
@@ -94,7 +117,7 @@
       </ul>
     </section>
     
-    <section class="section-ios-portfolio" id="iOS-portfolio">
+    <section class="section-ios-portfolio" id="ios-portfolio">
       <div class="row">
         <h2 class="iOS">iOS PORTFOLIO</h2>
         <p class="blurb long-copy">Find all my iOS projects on <a href="https://github.com/rcachero" target="_blank">GitHub</a>!</p>
@@ -103,19 +126,55 @@
         <div class="col span-1-of-3 box-mobile">
           <img src="resources/img/ios-weather.png" alt="iOS Weather App">
           <h3>Weather App</h3>
+          <div class="ios-portfolio-feature">
+            <i class="ion-social-apple-outline icon-small"></i>
+            Swift
+          </div>
+          <div class="ios-portfolio-feature">
+            <i class="ion-ios-ionic-outline icon-small"></i>
+            Alamofire
+          </div>
+          <div class="ios-portfolio-feature">
+            <i class="ion-social-github-outline icon-small"></i>
+            <a href="https://github.com/rcachero/iOS-WeatherApp" target="_blank">GitHub</a>
+          </div>
         </div>
         <div class="col span-1-of-3 box-mobile">
           <img src="resources/img/ios-favorite-place.png" alt="iOS Favorite Place App">
           <h3>My Favorite Place</h3>
+          <div class="ios-portfolio-feature">
+            <i class="ion-social-apple-outline icon-small"></i>
+            Swift
+          </div>
+          <div class="ios-portfolio-feature">
+            <i class="ion-ios-ionic-outline icon-small"></i>
+            AutoLayout - Stack Views
+          </div>
+          <div class="ios-portfolio-feature">
+            <i class="ion-social-github-outline icon-small"></i>
+            <a href="https://github.com/rcachero/iOS-MyFavoritePlace" target="_blank">GitHub</a>
+          </div>
         </div>
         <div class="col span-1-of-3 box-mobile">
           <img src="resources/img/ios-firebase.png" alt="iOS Firebase App">
           <h3>Firebase App</h3>
+          <div class="ios-portfolio-feature">
+            <i class="ion-social-apple-outline icon-small"></i>
+            Swift
+          </div>
+          <div class="ios-portfolio-feature">
+            <i class="ion-ios-ionic-outline icon-small"></i>
+            Firebase
+          </div>
+          <div class="ios-portfolio-feature">
+            <i class="ion-social-github-outline icon-small"></i>
+            <a href="https://github.com/rcachero/ralph-showcase" target="_blank">GitHub</a>
+          </div>
         </div>
       </div>
     </section>
     
-    <section class="section-portfolio js--section-portfolio" id="portfolio">
+    <section class="section-portfolio js--section-portfolio" id="web-portfolio">
       <div class="row">
         <h2>Web Portfolio</h2>
         <p class="blurb long-copy">
@@ -123,7 +182,7 @@
         </p>
       </div>
       <div class="row">
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-4 box-web">
           <img src="resources/img/tic-tac-toe.png" alt="Tic Tac Toe">
           <h3>Tic Tac Toe</h3>
           <div class="portfolio-feature">
@@ -139,7 +198,7 @@
             <a href="http://codepen.io/rcachero/full/vOPNQE/" target="_blank">Codepen</a>
           </div>
         </div>
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-4 box-web">
           <img src="resources/img/pomodoro.png" alt="Pomodoro Clock">
           <h3>Pomodoro Clock</h3>
           <div class="portfolio-feature">
@@ -155,7 +214,7 @@
             <a href="http://codepen.io/rcachero/full/rVqdQa/" target="_blank">Codepen</a>
           </div>
         </div>
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-4 box-web">
           <img src="resources/img/calc.png" alt="Calculator">
           <h3>Calculator</h3>
           <div class="portfolio-feature">
@@ -171,7 +230,7 @@
             <a href="http://codepen.io/rcachero/full/aOPLaK/" target="_blank">Codepen</a>
           </div>
         </div>
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-4 box-web">
           <img src="resources/img/wiki.png" alt="Wiki Search">
           <h3>Wiki Search</h3>
           <div class="portfolio-feature">
@@ -246,7 +305,8 @@
         <div class="col span-1-of-2">
           <ul class="footer-nav">
             <li><a href="#about">About me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#ios-portfolio">Mobile</a></li>
+            <li><a href="#web-portfolio">Web</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
