@@ -493,7 +493,8 @@ footer {
 .ion-social-linkedin,
 .ion-social-twitter,
 .ion-social-googleplus,
-.ion-social-github {
+.ion-social-github,
+.ion-flame {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -516,6 +517,11 @@ footer {
 .ion-social-github:hover,
 .ion-social-github:active {
   color: #000;
+}
+
+.ion-flame:hover,
+.ion-flame:active {
+  color: #006400;
 }
 
 footer p {
