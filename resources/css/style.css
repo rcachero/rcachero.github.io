@@ -346,6 +346,24 @@ header {
 }
 
 /* -------------------------------------------- */
+/* iOS PORTFOLIO */
+/* -------------------------------------------- */
+
+.iOS { text-transform: none }
+
+.box-mobile img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.box-mobile h3 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* -------------------------------------------- */
 /* WEB PORTFOLIO */
 /* -------------------------------------------- */
 
@@ -358,6 +376,8 @@ header {
   height: auto;
   margin-bottom: 15px;
 }
+
+.box h3 { text-align: center; }
 
 .portfolio-feature {
   margin-bottom: 5px;
